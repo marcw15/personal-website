@@ -1,0 +1,39 @@
+---
+import Button from "./Button.astro";
+---
+<div class="greeting">
+<h2>Willkommen auf meiner Website</h2>
+<h1>Digitale <span class="text-gradient">Meisterwerke</span> schaffen!</h1>
+<p>Von kleinen Webseiten bis zu komplexen Online-Plattformen – Ihre digitale Präsenz in besten Händen. Ich gestalte, entwickle und optimiere, damit Ihr Business online glänzt. Für Selbständige, Kleinunternehmer und KMUs auf Erfolgskurs.</p>
+<Button
+				href="/#contact"
+				title="Get in touch"
+/>
+</div>
+<style lang="sass">
+.greeting
+    display: flex
+    flex-direction: column
+
+    h1
+        font-size: 4rem
+        font-weight: 700
+        line-height: 1
+        text-align: center
+        margin-bottom: 1em
+
+    p
+        text-align: center
+
+    h2
+        line-height: 1
+        text-align: center
+        margin-bottom: 1em
+
+    .text-gradient
+        background-image: var(--accent-gradient)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        background-size: 400%
+        background-position: 0%
+</style>
