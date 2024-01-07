@@ -1,5 +1,6 @@
 ---
 import Button from "./Button.astro";
+import "../assets/styles/Greeting.sass"
 ---
 <div class="greeting">
 <h2>Willkommen auf meiner Website</h2>
@@ -10,30 +11,3 @@ import Button from "./Button.astro";
 				title="Get in touch"
 />
 </div>
-<style lang="sass">
-.greeting
-    display: flex
-    flex-direction: column
-
-    h1
-        font-size: 4rem
-        font-weight: 700
-        line-height: 1
-        text-align: center
-        margin-bottom: 1em
-
-    p
-        text-align: center
-
-    h2
-        line-height: 1
-        text-align: center
-        margin-bottom: 1em
-
-    .text-gradient
-        background-image: var(--accent-gradient)
-        -webkit-background-clip: text
-        -webkit-text-fill-color: transparent
-        background-size: 400%
-        background-position: 0%
-</style>

@@ -1,0 +1,22 @@
+:root
+    --accent: 253, 186, 116
+    --accent-light: 254, 215, 170
+    --accent-dark: 251, 156, 60
+    --accent-gradient: linear-gradient(45deg, rgb(var(--accent)), rgb(var(--accent-light)) 30%, white 60%)
+body
+    &::-webkit-scrollbar-track
+        box-shadow: inset 0 0 5px grey
+        border-radius: 10px
+        box-shadow: inset 0 0 6px #1b1818da
+    &::-webkit-scrollbar
+        width: .8em
+    &::-webkit-scrollbar-thumb
+        background-color: #e4dffd
+        outline: 1px solid #e4dffde8
+        border-radius: 1rem
+html
+    font-family: system-ui, sans-serif
+    background: #13151a
+    background-size: 224px
+code
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace

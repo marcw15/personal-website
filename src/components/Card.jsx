@@ -1,7 +1,5 @@
-// Card.jsx
-
-import React, { useRef } from 'react';
-import styles from './styles/Card.module.sass';
+import { useRef } from 'react';
+import styles from '../assets/styles/Card.module.sass';
 
 const Card = ({ title, body, href }) => {
   const cardRef = useRef();
@@ -15,7 +13,7 @@ const Card = ({ title, body, href }) => {
     card.style.transform = `perspective(800px) rotateY(calc(${xPos} * 1deg)) rotateX(calc(${yPos} * 1deg))`;
   };
 
-  const handleMouseOut = () => {
+  const handleMouseOut = (e) => {
     const card = cardRef.current;
     card.style.transform = 'rotateX(0deg) rotateY(0deg)';
   };

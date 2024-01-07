@@ -1,0 +1,20 @@
+---
+import Layout from "./Layout.astro";
+const { frontmatter } = Astro.props;
+import "../assets/styles/index.sass";
+import "../assets/styles/Services.sass";
+---
+
+<Layout title={frontmatter.title}>
+    <main class="max-w-7xl" transition:name="cards">
+        <h1 class="title text-gradient">{frontmatter.title}</h1>
+        <h2 class="prose">{frontmatter.description}</h2>
+        <img
+            src={frontmatter.image.url}
+            width="300"
+            alt={frontmatter.image.alt}
+            class="hero-image"
+        />
+        <slot />
+    </main>
+</Layout>
