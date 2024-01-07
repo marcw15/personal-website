@@ -12,8 +12,8 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
 ## 👟 Push
-| git remote add origin https://github.com/marcw15/personal-website.git |
-| git branch -M main |
-| git push -u origin main |
+| `git remote add origin https://github.com/marcw15/personal-website.git` | |
+| `git branch -M main` | |
+| `git push -u origin main` | |
 
 
