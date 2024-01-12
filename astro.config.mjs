@@ -8,6 +8,16 @@ import cloudflare from "@astrojs/cloudflare";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), react(), sitemap()],
+  plugins: [require('@tailwindcss/typography')],
   output: "server",
-  adapter: cloudflare()
+  adapter: cloudflare(),
+  prefetch: {
+    prefetchAll: true
+  },
+  build: {
+    inlineStylesheets: `never`,
+  },
+  experimental: {
+    optimizeHoistedScript: true,
+  }
 });
