@@ -1,6 +1,7 @@
 ## Open To-dos
 
 - [ ] add content
+- [ ] why is the card animation lagging,when <ThreeDModel /> is implemented?
 - [ ] fix camera and style of 3d model
 - [ ] Add animation to 3d model with Three.js
 - [ ] Add backend for contact form
