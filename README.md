@@ -1,3 +1,12 @@
+## Open To-dos
+
+- [ ] add content
+- [ ] fix camera and style of 3d model
+- [ ] Add animation to 3d model with Three.js
+- [ ] Add backend for contact form
+- [ ] Switch from Cloudflare to Nodejs adapter and deploy to GitHub Pages 
+- [ ] minor style fixes (footer, header, mobile)
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:

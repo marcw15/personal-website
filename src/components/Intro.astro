@@ -1,5 +1,6 @@
 ---
 import Greeting from "./Greeting.astro";
+import ThreeDModel from '../components/3d/App.jsx';
 ---
 <div class="overflow-hidden py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -9,7 +10,7 @@ import Greeting from "./Greeting.astro";
           <Greeting />
           </div>
         </div>
-        <img src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442">
+        <ThreeDModel client:load/>
       </div>
     </div>
 </div>
