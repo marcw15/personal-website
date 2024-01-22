@@ -4,7 +4,7 @@ npx gltfjsx@6.2.16 FactoryAnimation.gltf
 auto generate without animation hook
 */
 
-import React, { useRef, useLayoutEffect } from 'react'; // Import useLayoutEffect here
+import React, { useRef, useLayoutEffect } from 'react';
 import { useGLTF, useAnimations } from '@react-three/drei'
 
 export function Model(props) {
