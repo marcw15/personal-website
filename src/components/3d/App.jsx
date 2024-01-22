@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
-import { Model } from './3d';
+import { Model } from './FactoryAnimation';
 export default function ThreeDModel() {
     return (
        <Canvas
